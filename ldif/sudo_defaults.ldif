@@ -1,0 +1,24 @@
+# sudo defaults
+dn: cn=defaults,ou=SUDOers,dc=FROSK,dc=co,dc=jp
+objectclass: top
+objectclass: sudoRole
+cn: defaults
+#sudoOption: !root_sudo
+sudoOption: !lecture
+sudoOption: log_host
+sudoOption: log_year
+sudoOption: syslog=local3
+sudoOption: logfile=/var/log/sudo.log
+sudoOption: ignore_dot
+#sudoOption: ignore_local_sudoers
+sudoOption: timestamp_timeout=0
+sudoOption: !authenticate
+
+# %sudo
+cn: cn=%sudo,ou=SUDOers,dc=FROSK,dc=co,dc=jp
+objectClass: top
+objectClass: sudoRole
+cn: %sudo
+sudoUser: %sudo
+sudoHost: ALL
+sudoCommand: ALL

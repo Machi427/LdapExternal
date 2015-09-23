@@ -1,0 +1,14 @@
+# AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
+# CRC32 07a22015
+dn: cn=module{1}
+objectClass: olcModuleList
+cn: module{1}
+olcModulePath: /usr/lib/ldap
+olcModuleLoad: {0}syncprov.la
+structuralObjectClass: olcModuleList
+entryUUID: 8c8a21e4-f603-1034-8012-1bf6ba813f86
+creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+createTimestamp: 20150923055616Z
+entryCSN: 20150923055616.715173Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20150923055616Z

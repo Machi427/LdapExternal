@@ -1,0 +1,16 @@
+# Sudo_Group
+dn: cn=sudo,ou=Group,dc=FROSK,dc=co,dc=jp
+objectClass: posixGroup
+objectClass: top
+cn: sudo:
+gidNumber: 3000
+memberUid: m_ootaku
+
+
+# Development
+dn: cn=development,ou=Group,dc=FROSK,dc=co,dc=jp
+objectClass: posixGroup
+objectClass: top
+cn: development
+gidNumber: 2000
+memberUid: m_ootaku

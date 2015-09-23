@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# SUDOers (SUDOersエントリ)
+#-----------------------------------------------------------
+#SUDOers
+dn: ou=SUDOers,dc=FROSK,dc=co,dc=jp
+objectClass: organizationalUnit
+ou: SUDOers
+
+#-----------------------------------------------------------
+# User (ユーザーエントリ)
+#-----------------------------------------------------------
+dn: ou=User,dc=FROSK,dc=co,dc=jp
+objectClass: organizationalUnit
+ou: User
+
+#-----------------------------------------------------------
+# Group (グループエントリ)
+#-----------------------------------------------------------
+dn: ou=Group,dc=FROSK,dc=co,dc=jp
+objectClass: organizationalUnit
+ou: Group

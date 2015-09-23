@@ -1,0 +1,18 @@
+dn: uid=m_ootaku,ou=User,dc=FROSK,dc=co,dc=jp
+objectClass: shadowAccount
+objectClass: posixAccount
+objectClass: account
+objectClass: top
+objectClass: ldapPublicKey
+cn: Makoto Otaku
+uid: m_ootaku
+uidNumber: 2007
+gidNumber: 2000
+homeDirectory: /home/m_ootaku
+loginShell: /bin/bash
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7
+shadowLastChange: 16175
+userPassword: {SSHA}8XURBVd0/iTR6L0n5U1Ldda7T8MC6Pvg
+sshPublicKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/9BgfrIX3VIWFaW+dyOOXN3YrCCLNLjHhBPRUQN/EObjW95hi4+p+9JZ1vmvr+zoU+MYdzqtO+FxW5r5wjYodRRJgP5Jxe42kDRQsH/q75u0/4gMozWuB+CP15rqtBVeygNP+1s2PHzlqMMVOlXLvCohcLzv+NYFs2ZZmkVc6SmfEnS/sLR+oaIFu0Y0ATZOpY6BVebVcmS5qsCgJAb/1IJ7sCQ9UXgCg3CKNS49LQuxVuPNPY3umAZdso14L7zAxsU59x9qzx/GzYKkxWf9O1vXhfGOoEYY5lIdVESkW9NyKhGokEnvXV1KSdo3cmSJ1EJZBs2oQ5gCa9IiuJvU7 machirda427@gmail.com
